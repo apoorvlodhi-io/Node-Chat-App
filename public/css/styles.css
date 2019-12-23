@@ -94,7 +94,7 @@ button:disabled {
     color: white;
     background: #333744;
     width: 225px;
-    overflow-y: scroll
+    /* overflow-y: scroll */
 }
 
 /* Chat styles */
@@ -149,7 +149,7 @@ button:disabled {
 }
 
 .compose input {
-    border: 1px solid #eeeeee;
+    border: 1px solid #7C5CBF;
     width: 100%;
     padding: 12px;
     margin: 0 16px 0 0;
@@ -163,6 +163,7 @@ button:disabled {
 /* Chat Sidebar Styles */
 
 .room-title {
+    /* text-align: center; */
     font-weight: 400;
     font-size: 22px;
     background: #2c2f3a;
@@ -170,6 +171,7 @@ button:disabled {
 }
 
 .list-title {
+    text-align: center;
     font-weight: 500;
     font-size: 18px;
     margin-bottom: 4px;
@@ -177,7 +179,7 @@ button:disabled {
 }
 
 .users {
-    list-style-type: none;
+    /* list-style-type: none; */
     font-weight: 300;
     padding: 12px 24px 0 24px;
 }
